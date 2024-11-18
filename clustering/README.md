@@ -1,0 +1,29 @@
+# Clustering Installation Instructions
+
+Start by updating conda environment, replacing the environment name you want in `myenv`\
+Leave empty to rename to default name: `ragnarec`
+
+#### Update existing environment:
+
+```
+conda env update {--name myenv} --file environment.yml --prune
+```
+
+#### Create new environment:
+
+```
+conda env create -f environment.yml
+```
+
+## Installing GuidedLDA
+
+Next we need to install `GuidedLDA`\
+Feel free to ignore the warnings/errors (depreciation issues)
+
+```
+git clone https://github.com/vi3k6i5/GuidedLDA
+cd GuidedLDA
+sh build_dist.sh
+python setup.py sdist
+pip install -e .
+```

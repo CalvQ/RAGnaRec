@@ -1,0 +1,24 @@
+name: ragnarec
+channels:
+    - pytorch
+    - defaults
+    - conda-forge
+dependencies:
+    - python=3.10
+    - numpy
+    - toolz
+    - matplotlib
+    - pandas
+    - pip
+    - pytorch
+    - nltk
+    - ipykernel
+    - gensim
+    - cython
+    - pip:
+          - regex
+          - transformers
+          - pyarrow
+          - fastparquet
+          - scikit-learn
+prefix: /Users/calvq/miniconda3/envs/10701-env
