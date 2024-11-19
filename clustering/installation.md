@@ -18,6 +18,7 @@ conda env create -f environment.yml
 ## Installing GuidedLDA
 
 Next we need to install `GuidedLDA`\
+Run these commands **inside your conda env**.\
 Feel free to ignore the warnings/errors (depreciation issues)
 
 ```
@@ -27,3 +28,7 @@ sh build_dist.sh
 python setup.py sdist
 pip install -e .
 ```
+
+## Downloading Data
+
+Running `python preprocess_data.py` will download and store cleaned data in `.pkl` files.
