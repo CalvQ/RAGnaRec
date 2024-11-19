@@ -53,7 +53,7 @@ for idx in tqdm.tqdm(range(len(reviews)), leave=False, desc="Review Tokenization
 print("Writing reviews to file")
 
 # Save cleaned reviews in file
-with open("clean_reviewsT.pkl", "wb") as clean_review_file:
+with open("clean_reviews.pkl", "wb") as clean_review_file:
     pkl.dump(reviews, clean_review_file)
 
 print("Finished writing")
@@ -71,7 +71,7 @@ for idx in tqdm.tqdm(range(len(reviews)), leave=False, desc="Corpus Creation"):
 print("Writing corpus to file")
 
 # Save corpus in file
-with open("clean_review_corpusT.pkl", "wb") as clean_review_corpus:
+with open("clean_review_corpus.pkl", "wb") as clean_review_corpus:
     pkl.dump(corpus, clean_review_corpus)
 
 print("Finished")
