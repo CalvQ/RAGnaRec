@@ -13,7 +13,7 @@ Topic 6: you they have on not me at are
 Topic 7: we were on had not food at our
 ```
 
-`n_topics=25, n_iter=1000, random_state=7, refresh=20, seed_confidence=0.15, No Seed Topics`
+`n_topics=25, n_iter=150, random_state=7, refresh=20, seed_confidence=0.15, No Seed Topics`
 
 ```
 Topic 0: food good not place they chicken had you have on so like were are very
