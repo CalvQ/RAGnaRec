@@ -11,6 +11,7 @@ import pandas as pd
 import numpy as np
 import pickle as pkl
 import tqdm
+import nltk
 
 from nltk.tokenize import RegexpTokenizer
 from nltk.stem.wordnet import WordNetLemmatizer
@@ -35,6 +36,8 @@ df_combined = pd.concat([df_train, df_test], axis=0, ignore_index=True)
 tokenizer = RegexpTokenizer(r'\w+')
 lemmatizer = WordNetLemmatizer()
 
+english_stopwords = set(nltk.corpus.stopwords.words('english'))
+
 # process each review
 reviews = df_combined["text"].tolist()
 for idx in tqdm.tqdm(range(len(reviews)), leave=False, desc="Review Tokenization"):
@@ -46,7 +49,9 @@ for idx in tqdm.tqdm(range(len(reviews)), leave=False, desc="Review Tokenization
         not token.isnumeric() and len(token) > 1)]
     lemmatized_tokens = [lemmatizer.lemmatize(
         token) for token in review_tokens_cleaned]
-    reviews[idx] = lemmatized_tokens
+    removed_stopwords = [token for token in lemmatized_tokens if (
+        token not in english_stopwords)]
+    reviews[idx] = removed_stopwords
     # TODO: consider different lemmatizer/doing less preprocessing
     # concerned that it over-normalizes, but no lemmatization likely too noisy
 
