@@ -1,0 +1,202 @@
+[['pizza', 'food', 'chicken', 'burger'], ['doctor', 'office', 'medical']]
+
+Topic 0: good burger food fry place like chicken sandwich ordered cheese really ni back would got time meat one get go sauce try also nthe menu
+Example Documents:
+finger frozen like could pizza kind kid meatball food finally decide cooked plain child disappointed
+place used nthe owner always minute bright least philly school get kid new forever cheese
+mustard sandwich doe want ok add board explained little freshness ha mayo need one instead
+steak amazing cost special really good cleanliness stated ginger future forget without tenderloin telling recommended
+fry sub french lunch cheap presented service coffee family fancy fair fare figured free mention
+
+Topic 1: back said would time get told one customer go went never service could got minute hour asked even called call like know ni another come
+Example Documents:
+stuff paid customer service comment day also back like lady item aware lot great miss
+back fly call go ni new problem still counter first get like employee remember decided
+offer film yelp car service made auto place waiting appointment vehicle nice kind sure get
+doctor health plan set network first cancelled fortunately insurance listed paid beginning signed spoke looked
+corporate phone anyone around would get sure road take please ha grease told customer noon
+
+Topic 2: time place service great always good ha staff go like love year one location best work every never recommend get really customer new ever feel
+Example Documents:
+always dentist dr hate go great swear team make staff every going surprised need see
+boston waitress time often one sushi service served place average good curry tip totally back
+ha recently meal eat eating changed something often like year still future stated forget without
+go hair forget really dont give people done matter paying professional state shot treatment wild
+little management carpet back picture told year move review area month cleaning apartment clean cost
+
+Topic 3: nail hair salon great really get back done place time cut massage nice groupon job like go gel one would polish appointment went service manicure
+Example Documents:
+quality looked cherry since paid one different nice within get pudding lot anywhere client comparison
+car look continue happy sure friendly great service greet file nice make job keep brand
+nail polish place came give name use gel manicure opened chance went disappointed empty massage
+nail salon gel blah owner time color done even back would get go selection although
+special birthday felt attention detail girl made service think took really event feel beautiful paying
+
+Topic 4: chicken food good rice dish thai sauce soup noodle ordered like chinese place fried roll spicy beef restaurant curry shrimp flavor pho order pork nthe
+Example Documents:
+shrimp crispy meat place vega used pretty quality yelpers relative relatively result roast salt sauce
+stuff curry dish overly also see spicy fried like good pad supposed sweet refilled steamed
+like thai chicken curry flavor pad good location eastern yellow always spicy ha still quality
+fresh different decent good overall bit effort great healthy dish food something hard appreciate try
+block pretty got soon sized sprout came etc spring interesting pho roll eventually cold cash
+
+Topic 5: would service told customer day never time back get call card business one review phone ha called charge experience manager could company asked ni make
+Example Documents:
+pool explained service come would needed owner liked new everything equipment whole really sell home
+pet care owner even human gone without take mother nwhen professional state come wow history
+event print photo hour guest picture booth team address half service asked delivery company never
+car available would purchased end promise purchasing fact felt ready pleasant big paid appreciate grand
+ounce confirmed mail arrived treated new called free area return never left cream coming badly
+
+Topic 6: beer place bar good like one great food selection drink find lot ha pretty price location game get nthe go pub store area time around
+Example Documents:
+section item vegan vegetarian ni cart wide several shop stocked west people plus hard la
+happy bar place free event smoke could completely hour see experience everything door wine air
+place wash needed bit besides great location staff service watch enjoy speed average array brew
+find place go house food ale lot location watch like drink since 11pm liked game
+ha well possible cheap way much less food basically afford go saving therefore around good
+
+Topic 7: show vega la ticket see seat flight strip amazing well best nthe one love time get trip good view cirque fun part experience nif worth
+Example Documents:
+second favorite amazingly funny show town performer surprisingly cleanliness quickly forget without tenderloin telling stated
+show get nthe really would long top nto nand nut prop sense shelf tonight around
+show went fan see tell great theater fun go bad glad seat friend really loved
+go could way training show unique since doe use competition want train ha honestly nif
+business time employee grab seat customer breakfast running restaurant received people like already greeting sorry
+
+Topic 8: food place service like good bad go would one time better star restaurant get ever much eat worst really even never terrible back nothing horrible
+Example Documents:
+food long take time service get wait many honestly love good legit min fruit ending
+get best disappointed waited deserve ever min worst service refill town tip party always price
+food day poor hand cheese event even service imagine like tomato hospital working way ever
+time get server service ever together worst come waitress new decent show horrible experienced experience
+food unprofessional want time come horrible get reasonable good though service waiter water wifi matter
+
+Topic 9: sushi buffet food roll good place price eat vega quality like go really better get crab pretty fish service selection would best restaurant great fresh
+Example Documents:
+restaurant clean look service good food better affordable chinese decent nyou reviewed super people complex
+good would alright place taste though nservice go mile sushi away stated future forget definite
+place sum dim give lot selection like food back passed sucked came ni wrapped cart
+buffet best dish come veal quality like definitely food selection dessert wynn lamb time none
+fresh stuff groupon like hour tuna happy roll one even cant nthe sea got let
+
+Topic 10: breakfast egg food brunch good bacon pancake toast french coffee waffle sausage morning get hash really omelet nthe service bagel wait brown fruit potato great
+Example Documents:
+tasty time good food toast staff hard one ha service weekend hit etc usually character
+biscuit sausage gravy turkey portion opted along hot delicious waitress tasty mention new like quality
+bagel time order got week one twice forgot turkey disgusting back like veggie review right
+hash omelette loved nice best veggie breakfast owner friendly brown telling important hair ginger future
+pancake review biscuit paid egg cut warned rave public personality orange knife juice burned adult
+
+Topic 11: class place like kid time staff gym one nice get great room day also people every lot ha clean really area feel go hour facility
+Example Documents:
+machine equipment gym would cool rack one pretty leg popular two alot area used ha
+wedding win done day scottsdale quarter purchased morning member ease care would beyond book night
+ni class one since instructor location though think found program membership generally month fitness justify
+went right pretty across board disappoint think see new college delivered inn kid exit year
+green location close scottsdale convenient like feel early love much please give sunday gripe open
+
+Topic 12: good cheese salad also menu delicious dish sauce dessert nthe restaurant meal cream like great flavor bread made ordered would really potato amazing sweet fresh
+Example Documents:
+brunch good beer dog flatbread gravy biscuit patio opted french perfection service nthey side menu
+menu drink three lounge crab two food cake delicious pepper place well check cocktail super
+good one well also bit get would time place thing side ahi live absolutely done
+taco fish cheese good tiny chicken tried goat pork corn sweet average well like seemed
+tamale go appetizer back goodness served sauce upscale menu shrimp little vega divine girlfriend recommended
+
+Topic 13: food great place service good time love friendly always back restaurant lunch go menu delicious best staff definitely amazing happy atmosphere excellent try get favorite
+Example Documents:
+highly ate restaurant recommend excellent time definite die matter important hair ginger future forget without
+great food service cleanliness probably future forget without tenderloin telling stated recommended quickly period hair
+ordered great boyfriend happy didnt hour like appetizer price thanks amazing bottle came sandwich thing
+much honey time friend chipotle worth awesome totally like wait artichoke back dip selection great
+well quiet incredible date like little service japanese nice roll amazing good outside spot exactly
+
+Topic 14: pizza good cheese like crust sauce salad slice place bread italian pasta get order time sandwich got topping ordered deli garlic really fresh little better
+Example Documents:
+pizza review best one premium mixed ingredient guess full agreed ever including tasted got experience
+soup literally nwe sandwich ever disgusting enjoyed extremely horrible like different ordered smelled tasted pour
+pizza bread crust delivered cheese great extra small amazing square cut also large recommended pepperoni
+good crust still pizza topping lunch week inside get price memorable outside spectacular style various
+order garlic meatball salad menu sandwich came good spaghetti olive like bread black ready fry
+
+Topic 15: ordered steak food good meal came restaurant waiter time service table order server one got dinner back drink salad would took asked cooked minute well
+Example Documents:
+good steak get restaurant pasta time friend really service even place much like dessert say
+waiter wanted would table restaurant order husband gripe two nmy next seated meal made forgot
+love right recommended eat thanks table steak got meal dropped menu without enjoyed waitress ever
+took food discount disappointed minute average overall also manager knew error checked assuming waiter chicken
+tired even good taste rough ambience average disappointing portion meat subpar calamari small service fried
+
+Topic 16: dog parking car place vega park lot get strip location hot area street great small la die ha da inside mile near friendly located outside
+Example Documents:
+local reason nmy really jack east vega experience keep lot time west come good place
+sunset still across heading friendly ago mcdonald spot street grab get close group la manager
+egg got two hit like spot tired room bit hanging starbucks coffee st paying one
+great drive exotic blast car experience cleanliness notch without tenderloin telling stated recommended quickly probably
+big park plenty sand table little bone area ha known kid feature njust box nthe
+
+Topic 17: place drink get bar like people night time go one good really club music got friend back great pretty around cool nice vega nthe fun
+Example Documents:
+great cool pittsburgh shake burger place ni kind eat new young bring better fry staff
+time wanted wine want thought ni love already service tired server chance decided kick still
+nice place music husband venue decided check eaten never drink beyond care packed staff always
+get got sexy free men npros ran screaming back luckily vip period people face amazingly
+club got go friend dance gamble lamp guest ni work would almost including busy vega
+
+Topic 18: store like one time place go shop really price find good ha year get even also item great something much new ni need everything around
+Example Documents:
+nthe store online box place opened cutting open get better side every would felt back
+something store find went always selection party new even looking weight whatever please whenever specific
+exhibit nit text pretty movie one get part really section basic small thing load train
+place store outlet great hot selection vega jean indoor hanging fashion big express pair although
+item store remodel year aisle fry food milk certain nthat organic produce got thing shopping
+
+Topic 19: room hotel stay night casino nice bed pool stayed floor vega strip like would nthe bathroom desk check free clean one staying suite front great
+Example Documents:
+room one complaint elevator bathroom wet time spot ride overall know fix every came luxor
+like small free rather nice crap breakfast room total friendly service location microwave bedroom place
+nthe food place best standard disgusting service weekend ha shame knew print need nall would
+hotel one night good care two clean suite room parking holiday shower though inn montreal
+area remodeled tv wall sink great job new use fully term flat bathroom stocked screen
+
+Topic 20: taco salsa mexican de chip le bean la burrito u00e9 et enchilada rice est tortilla guacamole margarita u00e0 un que asada carne pa plus good
+Example Documents:
+de le chip et que est mais la pa une en sent par dessert fish
+spanish filling wish mexican could rice good big food figure right close future forget without
+u00e9 la que bar du u00e0 une le par en de pa u00e9e plus et
+de u00e9 le la et un au pa en que pour du mais u00e9e service
+le que u00e0 en la fruit ne du il portion u00e9e par et u00e9 service
+
+Topic 21: like place get one much cupcake think thing go review cake ni know little yelp say make good ice made want cream com something day
+Example Documents:
+place burger like could concept bar middle put phoenix nwent nothing mall else channel actually
+pointed taco love spicy place favor insane reviewer salsa sample variety bar shrimp favorite stated
+boston report really visit olive www story anyone closed future left used doe forward ha
+night breakfast like serving since little dinner menu dish lunch day know leftover next serve
+drink year ago visit bar friend many interesting heard get time kind driving bit job
+
+Topic 22: food great restaurant place good nice wine bar really star service table nthe price experience menu would ni like atmosphere much back little one bit
+Example Documents:
+always restaurant ni dining bread understand area sit loaded il like seems pizza nthe pasta
+tasting poor hungry good go n1 still food ni small know menu portion come service
+pie quite serve back another one menu point obvious mine edinburgh mediocre impressive hot grab
+one wine service really spotty tomato bruschetta jam experience order five weird half seriously opening
+average place good special lunch nice decor overall menu atmosphere pretty trying get bad brewery
+
+Topic 23: food table minute time order service server drink one back get came would asked took restaurant ordered wait even never waited went got another waitress
+Example Documents:
+strip family wanted friendly stopped known eaten service catch treatment table use walking served lunch
+order would bring even ask mixed manager managed go nothing house else hour make everyone
+food vega amazing waited wow friendly mean service behind nice la around waiter gone slow
+better slow extremely time result problem chance menu missing came giving several still item week
+cheeseburger come place minute rest rush check night ndo time slow ask whole took food
+
+Topic 24: place coffee good get food like one tea love always great time order go make really ha drink also little friendly nice pretty flavor sandwich
+Example Documents:
+filling puff vanilla cookie good chocolate filled go one flavor let cream said pastry got
+new favorite topping always clean consider one worth next coffee tasty blend key crowded pretty
+go place want would nother much feed complain got several eat lot hungry sure nyou
+ha taco hard never taste well nthis easy staff nwhen clean bud friendly cinnamon say
+henderson street water main casino sign hotel entrance one suggestion red nso certainly odd gone
+
