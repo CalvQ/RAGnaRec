@@ -1,0 +1,66 @@
+[['pizza', 'food', 'chicken', 'burger', 'cheese', 'coffee', 'egg', 'sauce', 'steak', 'fry', 'sandwich'], ['hair', 'nail', 'salon', 'gel', 'polish', 'manicure'], ['taco', 'salsa', 'mexican', 'chip', 'bean', 'burrito', 'enchilada', 'rice', 'tortilla', 'guacamole', 'carne', 'asada'], ['club', 'drink', 'party', 'beer', 'club', 'vega', 'casino', 'room', 'hotel', 'bar'], ['shopping', 'selection', 'store']]
+
+Topic 0: good food place like great one really cheese would time get burger pizza go ordered also back service salad ni nthe fry menu sauce chicken
+Example Documents:
+finger like frozen time disappointed food good meatball say sure way box brand bummer cheese
+good brunch beer flatbread patio opted gravy dog biscuit az baked love would came bread
+vanilla puff filling filled good cookie chocolate flavor let one cream go tea pastry green
+always restaurant ni dining bread understand seems loaded il area sit pizza pasta nthe like
+pizza one best experience ever got tasted different review including agreed full guess ingredient mixed
+
+Topic 1: time would get back service one told day said customer never go like ni call called could even went car got work asked place know
+Example Documents:
+nthe store opened online place box huge know better come ever felt get go high
+service paid customer stuff ordered day great everything want dont aware item lady case like
+fly back counter first new ni call still like go problem get bunch came come
+dr dentist always hate every going entire like mean much old excellent great see enough
+offer film yelp car service vehicle appointment auto nwhen place area get made came different
+
+Topic 2: food good place chicken like sushi restaurant rice roll great taco dish ordered really sauce service one go would back nthe time menu thai ni
+Example Documents:
+place shrimp meat crispy bite chow compared beef duck first flavor fried fun gross head
+time restaurant ate excellent highly recommend entire ended elevator cleanliness create complaint chair came called
+restaurant clean better food good people affordable chinese decent look nyou reviewed super service called
+stuff dish curry spicy fried see pad good overly like also okay twice try decent
+like thai chicken flavor pad curry good location eastern yellow ha always pretty quality spicy
+
+Topic 3: room hotel place like get night one vega time good nice great bar would show nthe go drink people really stay back got strip floor
+Example Documents:
+room one elevator complaint wet time spot every ride overall fix luxor know came bathroom
+place burger like another asked better poor middle name night restaurant told could great review
+smoke event free happy place bar could time asked bad give good got night star
+like free small come crap room little nthe really stay tasted friendly nice hotel dont
+place nice music never love drink husband staff always top check decided eaten beyond care
+
+Topic 4: place great like one good get store time ha go always really love food lot also price location shop find staff friendly make nice well
+Example Documents:
+place owner nthe used always school sandwich philly longer however forever bright new minute least
+know poor come food go good waiter hungry still menu small ni portion account afterwards
+pie quite serve back one another menu going got little nthe really look super cool
+something store find went looking selection even new always party made much old got though
+vegetarian vegan section cart item ni hope la maybe middle nthe people prepared many frozen
+
+Topic 5: wine steak restaurant de la meal menu great dinner le service table dessert dish u00e9 waiter delicious et filet appetizer glass server course dining rare
+Example Documents:
+great food service everything every even entire ended elevator cleanliness create complaint chair came called
+great fix time dinner done food go many could excellent menu special ask view occasion
+fine dining place atmosphere time experience food taste anything price however doe definitely portion delicious
+crab great amazing stone feel fine food get like two cooked nice complaint dining atmosphere
+great meal make guy sure took wine bar comfortable bartender always perfect alone care lovely
+
+Topic 6: food minute table drink order back would service time asked server one get came said restaurant ordered took got never told waitress even bar another
+Example Documents:
+waiter wanted husband would table restaurant order seated experience nmy half gripe next gras forgot
+best disappointed ever get order party min tip added refill deserve worst always price waited
+love recommended right thanks table steak eat meal got friend hate ever much remember dish
+food took overall time experience bad best disappointed order waiter chicken ok minute sadly aware
+order manager mixed ask bring would even asked big considering dish food friend came go
+
+Topic 7: food time service place order get one go like back good minute customer would wait never even bad people drink really went got pizza last
+Example Documents:
+get good steak pasta time restaurant wine friend place even service like much better dessert
+food long wait service time take get come eat another even good honestly sorry every
+soup ever like nwe ordered tasted different sandwich disgusting enjoyed extremely horrible literally pour smelled
+ha eat like meal eating still year often something changed recently complaint chair came called
+let place far food nthe people table would could try friendly slow trip wanted strip
+

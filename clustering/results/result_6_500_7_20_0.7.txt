@@ -1,0 +1,50 @@
+[['pizza', 'food', 'chicken', 'burger', 'cheese', 'coffee', 'egg', 'sauce', 'steak', 'fry', 'sandwich'], ['hair', 'nail', 'salon', 'gel', 'polish', 'manicure'], ['taco', 'salsa', 'mexican', 'chip', 'bean', 'burrito', 'enchilada', 'rice', 'tortilla', 'guacamole', 'carne', 'asada'], ['club', 'drink', 'party', 'beer', 'club', 'vega', 'casino', 'room', 'hotel', 'bar'], ['shopping', 'selection', 'store'], ['de', 'la', 'le', 'est', 'u00e9', 'un', 'pa', 'que', 'en', 'du', 'une']]
+
+Topic 0: good food place like great one time really would get go ordered pizza service cheese burger nthe menu back salad restaurant also ni got sandwich
+Example Documents:
+get good steak pasta time restaurant wine friend place even service like much better dessert
+finger like frozen time disappointed food good meatball say sure way box brand bummer cheese
+good brunch beer flatbread patio opted gravy dog biscuit az baked love would came bread
+vanilla puff filling filled good cookie chocolate flavor let one cream go tea pastry green
+waiter wanted husband would table restaurant order seated experience nmy half gripe next gras forgot
+
+Topic 1: would time back get said told one service customer never go day like went could call even asked called got ni minute know phone hour
+Example Documents:
+service paid customer stuff ordered day great everything want dont aware item lady case like
+fly back counter first new ni call still like go problem get bunch came come
+offer film yelp car service vehicle appointment auto nwhen place area get made came different
+hair go forget dont really give done get even time like name people one remember
+management little carpet move picture back review year told man unit never potential low complex
+
+Topic 2: food good place like chicken sushi restaurant rice great service roll ordered taco go dish really time one sauce back get would menu order thai
+Example Documents:
+place shrimp meat crispy bite chow compared beef duck first flavor fried fun gross head
+time restaurant ate excellent highly recommend entire ended elevator cleanliness create complaint chair came called
+restaurant clean better food good people affordable chinese decent look nyou reviewed super service called
+great food service everything every even entire ended elevator cleanliness create complaint chair came called
+stuff dish curry spicy fried see pad good overly like also okay twice try decent
+
+Topic 3: room place hotel like get night bar good one time vega great nice would drink nthe show really people go back got stay strip floor
+Example Documents:
+room one elevator complaint wet time spot every ride overall fix luxor know came bathroom
+place burger like another asked better poor middle name night restaurant told could great review
+know poor come food go good waiter hungry still menu small ni portion account afterwards
+smoke event free happy place bar could time asked bad give good got night star
+machine equipment gym rack popular pretty one leg cool would two think could clean people
+
+Topic 4: place like one time great get good go store really ha always love service also location make price food staff ni people lot well find
+Example Documents:
+place owner nthe used always school sandwich philly longer however forever bright new minute least
+pie quite serve back one another menu going got little nthe really look super cool
+nthe store opened online place box huge know better come ever felt get go high
+something store find went looking selection even new always party made much old got though
+dr dentist always hate every going entire like mean much old excellent great see enough
+
+Topic 5: food table service minute order drink time server came restaurant back one asked ordered took get would even waitress place wait never waiter got waited
+Example Documents:
+food long wait service time take get come eat another even good honestly sorry every
+best disappointed ever get order party min tip added refill deserve worst always price waited
+food took overall time experience bad best disappointed order waiter chicken ok minute sadly aware
+order manager mixed ask bring would even asked big considering dish food friend came go
+food first overall time bad la mean waiter love min friendly nice slow amazing brings
+
