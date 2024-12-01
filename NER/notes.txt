@@ -1,0 +1,43 @@
+Rosy Notes:
+System now tags entities and replaces them:
+
+I love the pasta at Olive Garden, especially on Halloween.
+becomes:
+I love the pasta at <ORG>, especially on <DATE>.
+
+It still does preprocessing like normal, so end result is:
+
+['love', 'pasta', '<org>', 'especially', '<date>']
+
+The tags can be specified in REPLACEMENT_LABELS, meaning we can choose to replace <org> and <fac> but not <dates> or <language>.
+
+The output of the system is found here:
+`clean_reviews.pkl`
+
+and can be loaded like:
+
+with open('clean_reviews.pkl', 'rb') as file:
+    clean_reviews = pkl.load(file)
+
+The resulting list clean_reviews will look like:
+[
+    (token_list, idx),
+    (token_list, idx),
+    (token_list, idx),
+    ...
+]
+
+where token_list is the list of tokens: ['love', 'pasta', '<org>', 'especially', '<date>']
+and idx is the corresponding original review: reviews[idx] = I love the pasta at Olive Garden, especially on Halloween.
+
+Report Notes:
+
+using this regex matches all the words in each string, but also matches specifically the tags that we generate with NER
+any special token that looks like "<text>" will get matched and truncated, addressing cases like:
+"Goldberg's" -> "<person>s" -> "<person>"
+
+tag_list = "|".join([label.lower() for label in REPLACEMENT_LABELS])
+token_regex = fr"(?:\b\w+\b|<(?:{tag_list})>)"
+
+Las Vegas under this system still becomes:
+"Las Vegas" -> "las vegas" -> "la vega"

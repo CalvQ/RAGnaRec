@@ -15,6 +15,7 @@ dependencies:
     - ipykernel
     - gensim
     - cython
+    - spacy
     - pip:
           - regex
           - transformers
