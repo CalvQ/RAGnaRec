@@ -14,7 +14,7 @@ class NER():
         self.REPLACEMENT_TAGS = REPLACEMENT_TAGS
         self.nlp = spacy.load("en_core_web_trf")
         self.tag_list = "|".join([label.lower()
-                                 for label in self.REPLACEMENT_LABELS])
+                                 for label in self.REPLACEMENT_TAGS])
         self.token_regex = fr"(?:\b\w+\b|<(?:{self.tag_list})>)"
 
         self.tokenizer = RegexpTokenizer(self.token_regex)
