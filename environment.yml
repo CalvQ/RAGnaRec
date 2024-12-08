@@ -16,6 +16,8 @@ dependencies:
     - gensim
     - cython
     - spacy
+    - textblob
+    - seaborn
     - pip:
           - regex
           - transformers
@@ -23,3 +25,10 @@ dependencies:
           - fastparquet
           - scikit-learn
           - bertopic
+          - langchain
+          - langchain-community
+          - langchain-openai
+          - langchain-chroma
+          - sentence-transformers
+          - chromadb
+          - vadersentiment
