@@ -14,7 +14,7 @@ TEXT_COLUMN = "text"
 
 def main(user_review):
     # load data
-    df = load_data(splits['train'], splits['test'], sample_size=SAMPLE_SIZE)
+    df = load_data(SAMPLE_SIZE)
 
     # create retriever
     retriever = create_retriever(
