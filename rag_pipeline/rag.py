@@ -3,11 +3,6 @@ from .data_loader import load_data
 from .retrieval import create_retriever
 from .generator import initialize_pipeline, generate_response
 
-splits = {
-    'train': 'hf://datasets/Yelp/yelp_review_full/train-00000-of-00001.parquet',
-    'test': 'hf://datasets/Yelp/yelp_review_full/test-00000-of-00001.parquet'
-}
-
 SAMPLE_SIZE = 1000
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 TEXT_COLUMN = "text"

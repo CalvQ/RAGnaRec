@@ -1,10 +1,12 @@
 import pandas as pd
 import random
+from datasets import load_dataset
 
 def load_data(sample_size = 1000):
-    splits = {'train': 'yelp_review_full/train-00000-of-00001.parquet', 'test': 'yelp_review_full/test-00000-of-00001.parquet'}
-    df_train = pd.read_parquet("hf://datasets/Yelp/yelp_review_full/" + splits["train"])
-    df_test = pd.read_parquet("hf://datasets/Yelp/yelp_review_full/" + splits["test"])
+    #splits = {'train': 'yelp_review_full/train-00000-of-00001.parquet', 'test': 'yelp_review_full/test-00000-of-00001.parquet'}
+    dataset = load_dataset("yelp_review_full")
+    df_train = pd.DataFrame(dataset['train'])
+    df_test = pd.DataFrame(dataset['test'])
     df = pd.concat([df_train, df_test], ignore_index=True)
 
     if sample_size:
