@@ -1,7 +1,7 @@
 import torch
-from data_loader import load_data
-from retrieval import create_retriever
-from generator import initialize_pipeline, generate_response
+from .data_loader import load_data
+from .retrieval import create_retriever
+from .generator import initialize_pipeline, generate_response
 
 splits = {
     'train': 'hf://datasets/Yelp/yelp_review_full/train-00000-of-00001.parquet',
