@@ -1,4 +1,4 @@
-from .rag_pipeline.data_loader import load_data
+from .data_loader import load_data
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import pandas as pd
@@ -36,7 +36,7 @@ class SentimentAnalyzer:
         return sentiment_counts, average_confidence, average_label
     
 
-def main():
+def sentiment_main():
     df = load_data(sample_size = 1000)
     analyzer = SentimentAnalyzer()
     df = analyzer.analyze_dataframe(df)
@@ -50,5 +50,5 @@ def main():
     return df
 
 if __name__ == "__main__":
-    df = main()
+    df = sentiment_main()
     print(df.head())
