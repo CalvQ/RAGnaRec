@@ -9,7 +9,7 @@ import pandas as pd
 SAMPLE_SIZE = 1000
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 TEXT_COLUMN = "text"
-CSV_FILE_PATH = "../sentiment_pipeline/sentiment_1000_cached.csv"
+CSV_FILE_PATH = "sentiment_pipeline/sentiment_1000_cached.csv"
 
 class RAGPipeline:
     def __init__(self):
