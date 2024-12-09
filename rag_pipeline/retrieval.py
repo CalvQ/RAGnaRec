@@ -8,9 +8,10 @@ def get_topic(user_review):
     return 0
 
 def create_retriever(
-        df, content_column = "text", chunk_size = 1000, chunk_overlap = 200,
+        df, content_column = "text", sentiment_column = "sentiment", confidence_column = "confidence",
+        chunk_size = 1000, chunk_overlap = 200,
         embedding_model = "sentence-transformers/all-MiniLM-L6-v2", search_type = "similarity"):
-    loader = DataFrameLoader(df, page_content_column = content_column) # Replace with topic documents
+    loader = DataFrameLoader(df, page_content_column = content_column, metadata_columns=[sentiment_column, confidence_column]) # Replace with topic documents
     docs = loader.load()
     text_splitter = RecursiveCharacterTextSplitter(chunk_size = chunk_size, chunk_overlap = chunk_overlap)
     splits = text_splitter.split_documents(docs)
@@ -22,11 +23,13 @@ def create_retriever(
 
 
 def retrieve_similar_documents(user_review,
-                               df, content_column = "text", chunk_size = 1000, chunk_overlap = 200,
+                               df, content_column = "text", sentiment_column = "sentiment", confidence_column = "confidence",
+                               chunk_size = 1000, chunk_overlap = 200,
                                embedding_model = "sentence-transformers/all-MiniLM-L6-v2", search_type = "similarity"):
     topic = get_topic(user_review) # Not used yet, TO DO
     retriever = create_retriever(
-        df, content_column = content_column, chunk_size = chunk_size, chunk_overlap = chunk_overlap, embedding_model = embedding_model, search_type = search_type)
+        df, content_column = content_column, sentiment_column = sentiment_column, confidence_column = confidence_column,
+        chunk_size = chunk_size, chunk_overlap = chunk_overlap, embedding_model = embedding_model, search_type = search_type)
     similar_docs = retriever.get_relevant_documents(user_review)
 
     return similar_docs

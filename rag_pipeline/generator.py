@@ -25,7 +25,7 @@ def get_template(user_review, context):
     {context}
     END REVIEWS
     Here is the user review: "{user_review}".
-    You will act as a recommendation engine. Your task is to analyze the user review and provide thoughtful responses based on the reviews provided. Follow these guidelines:
+    You will act as a recommendation engine. Your task is to analyze the user review and provide thoughtful responses based on the reviews provided and the sentiment information. A sentiment of 0 signifies a negative review, while 1 is positive. Follow these guidelines:
     1. If the user is reviewing a business:
     - Recognize their positive or negative experience.
     - Highlight 2-3 relevant points that other reviews support.
@@ -49,7 +49,9 @@ def get_prompt(user_review, retriever, max_docs = 20):
     
     context = ''
     for i, doc in enumerate(retrieved_docs[:max_docs]):
-        context += f"Review {i+1}:\n{doc.page_content}\n"
+        sentiment = doc.metadata.get('sentiment', 'Unknown')
+        confidence = doc.metadata.get('confidence', 'Unknown')
+        context += f"Review {i+1}:\n{doc.page_content}\nSentiment: {sentiment}, Confidence: {confidence}\n\n"
     return get_template(user_review, context)
     
 def generate_response(pipe, user_review, retriever, max_new_tokens = 256):

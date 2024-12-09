@@ -4,10 +4,12 @@ from .retrieval import create_retriever
 from .generator import initialize_pipeline, generate_response
 import getpass
 from huggingface_hub import login
+import pandas as pd
 
 SAMPLE_SIZE = 1000
 EMBEDDING_MODEL = "sentence-transformers/all-MiniLM-L6-v2"
 TEXT_COLUMN = "text"
+CSV_FILE_PATH = "sentiment_analysis/sentiment_1000_cached.csv"
 
 class RAGPipeline:
     def __init__(self):
@@ -17,7 +19,7 @@ class RAGPipeline:
     
     def setup(self):
         huggingface_login()
-        self.df = load_data(SAMPLE_SIZE)
+        self.df = pd.read_csv(CSV_FILE_PATH)
         self.retriever = create_retriever(
             self.df,
             content_column = TEXT_COLUMN,
