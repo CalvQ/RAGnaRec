@@ -1,7 +1,11 @@
 import torch
 from transformers import pipeline
+from sentiment_analysis.sentiment_analysis import SentimentAnalyzer
+
+analyzer = None
 
 def initialize_pipeline(model_name= "google/gemma-2-2b-it", device = None):
+    global analyzer
     if device is None:
         device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
 
@@ -16,15 +20,23 @@ def initialize_pipeline(model_name= "google/gemma-2-2b-it", device = None):
         print(f"Error loading the model: {e}. Falling back to CPU.")
         device = torch.device("cpu")
         pipe = pipeline("text-generation", model = model_name, device = device)
+
+    if analyzer is None:
+        analyzer = SentimentAnalyzer()
     
     return pipe
 
-def get_template(user_review, context):
+def analyze_user_sentiment(user_review):
+    sentiment, confidence = analyzer.analyze_sentiment(user_review)
+    return sentiment, confidence
+
+def get_template(user_review, user_sentiment, user_confidence, context):
     YELP_PROMPT_TEMPLATE = f"""Here are customer reviews similar to a user review, accompanied by a sentiment and confidence score:
     BEGIN REVIEWS
     {context}
     END REVIEWS
     Here is the user review: "{user_review}".
+    User Sentiment: {user_sentiment}, User Confidence: {user_confidence}.
     
     Your task is to act as a recommendation engine. Analyze the user review and provide a response based on the sentiment and intent of the user. A sentiment of 0 signifies a negative review, while 1 is positive. Follow these guidelines:
 
@@ -68,7 +80,11 @@ def get_prompt(user_review, retriever, max_docs = 20):
         sentiment = doc.metadata.get('sentiment', 'Unknown')
         confidence = doc.metadata.get('confidence', 'Unknown')
         context += f"Review {i+1}:\n{doc.page_content}\nSentiment: {sentiment}, Confidence: {confidence}\n\n"
-    return get_template(user_review, context)
+
+    # sentiment
+    user_sentiment, user_confidence = analyze_user_sentiment(user_review)
+
+    return get_template(user_review, user_sentiment, user_confidence, context)
     
 def generate_response(pipe, user_review, retriever, max_new_tokens = 256):
     prompt = get_prompt(user_review, retriever)
