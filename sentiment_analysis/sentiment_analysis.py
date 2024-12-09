@@ -1,4 +1,4 @@
-from ..rag_pipeline.data_loader import load_data
+from .rag_pipeline.data_loader import load_data
 from transformers import pipeline, AutoTokenizer, AutoModelForSequenceClassification
 import torch
 import pandas as pd
