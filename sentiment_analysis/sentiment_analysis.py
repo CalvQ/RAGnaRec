@@ -42,10 +42,13 @@ def main():
     df = analyzer.analyze_dataframe(df)
 
     # uncomment if you want to evaluate model
-    sentiment_counts, average_confidence, average_label = analyzer.evaluate_model(df)
-    print(f"Sentiment Counts:\n {sentiment_counts}")
-    print(f"Average Confidence:\n {average_confidence}")
-    print(f"Average Star Rating:\n {average_label}")
+    # sentiment_counts, average_confidence, average_label = analyzer.evaluate_model(df)
+    # print(f"Sentiment Counts:\n {sentiment_counts}")
+    # print(f"Average Confidence:\n {average_confidence}")
+    # print(f"Average Star Rating:\n {average_label}")
+
+    return df
 
 if __name__ == "__main__":
-    main()
+    df = main()
+    print(df.head())
