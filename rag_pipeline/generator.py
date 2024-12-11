@@ -47,19 +47,19 @@ def get_template(user_review, user_sentiment, user_confidence, context):
 
         - **Good Reviews, Bad Intent**: The user had a positive experience but wants to avoid certain issues (e.g., price, location, or other negatives).
           - Example: "The daycare at Little Wonders is great, but I’d like to avoid other centers with long waitlists and inflexible hours. Suggestions of places to avoid?"
-          - **Response**: **Focus on negative reviews** that highlight the specific issues (e.g., long waitlists or inflexible hours) that the user wants to avoid. These negative reviews should have **higher confidence** to make solid avoidance recommendations.
+          - **Response**: **Focus on negative reviews** that highlight the specific issues (e.g., long waitlists or inflexible hours) that the user wants to avoid. These negative reviews should have **lower confidence** to make solid avoidance recommendations.
 
         - **Bad Reviews, Good Intent**: The user had a negative experience but is still looking for better places to explore.
           - Example: "The doctor at CarePoint Clinic was dismissive and rushed through my appointment. Can you recommend a more attentive healthcare provider?"
-          - **Response**: Recommend 2-3 places with **positive reviews** and **higher confidence**, specifically focusing on places where users had more **attentive service** or better experiences than the negative review.
+          - **Response**: Recommend 2-3 places with **positive reviews** and **lower confidence**, specifically focusing on places where users had **better service** or better experiences than the negative review.
 
         - **Bad Reviews, Bad Intent**: The user had a negative experience and wants to avoid similar places.
           - Example: "The food at Bob’s Diner was terrible, and the staff was rude. Can you tell me other places to avoid?"
           - **Response**: **Focus exclusively on negative reviews** of places with **higher confidence**, and recommend 2-3 specific places to **avoid**. Pay particular attention to aspects that users disliked, such as poor food or rude service. Ensure that none of the recommendations are places the user would enjoy.
 
     2. **Recommendations:**
-        - If the user seeks **positive recommendations**, recommend 2-3 places supported by **positive reviews** with higher confidence. Highlight what users like about those places.
-        - If the user seeks **to avoid places**, recommend 2-3 specific places to avoid, strictly based on **negative reviews** with **higher confidence**. Focus on aspects that users dislike, ensuring not to recommend anything that the user would enjoy.
+        - If the user seeks **positive recommendations**, recommend 2-3 places supported by **reviews with positive sentiment**. Highlight what users like about those places.
+        - If the user seeks **to avoid places**, recommend 2-3 specific places to avoid, strictly based on **reviews with negative sentiment**. Focus on aspects that users dislike, ensuring not to recommend anything that the user would enjoy.
 
     3. **General Requirements:**
         - Do not infer any additional information beyond what is explicitly mentioned in the reviews.
