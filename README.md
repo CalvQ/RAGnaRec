@@ -1,3 +1,8 @@
+To run the model:
+Run all cells in this notebook - [Notebook](https://colab.research.google.com/github/CalvQ/RAGnaRec/blob/master/RAGnaRec.ipynb)
+Note: You will need valid HuggingFace credentials to access the Gemma model. The `response = main(review)` cell will take around 5-10 minutes to run the first time, since the various Transformer models have to be initialized. However, every subsequent review you test should not take more than 15-20 seconds on a GPU.
+
+
 Link to google doc - https://docs.google.com/document/d/18o4e1PhFWSVfNhSOhTrFjIlDVLvDl4sJ80oHYUnDW7Y/edit?tab=t.0
 
 ---
